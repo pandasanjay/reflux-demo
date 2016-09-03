@@ -20,7 +20,7 @@ module.exports = React.createClass({
     },
     render : function(){
         var post = this.satate.post;
-        return <h1 className="text-center">{post.title}</H1>;
+        return <h1 className="text-center">{post.title}</h1>;
     },
     onPostChange:function(evt, post){
         if(evt === 'post_update')
