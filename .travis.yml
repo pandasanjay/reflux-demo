@@ -3,7 +3,7 @@ node_js:
     - "4.0"
 script:
     - npm install
-    - gulp build
+    #- gulp build
     - gulp sass
 install:
     - npm install -g firebase-tools
