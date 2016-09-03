@@ -1,0 +1,27 @@
+{
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": ".",
+    "ignore":[
+      "firebase.json",
+      "gulpfile.js",
+      "package.json",
+      ".htaccess",
+      ".gitignore",
+      ".firebaserc",
+      "**/src/**"
+      "**/node_module/**",
+      "**/scss/**",
+      "**/.git/**"
+
+      ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
