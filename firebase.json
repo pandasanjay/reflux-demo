@@ -11,7 +11,7 @@
       ".htaccess",
       ".gitignore",
       ".firebaserc",
-      "**/src/**"
+      "**/src/**",
       "**/node_module/**",
       "**/scss/**",
       "**/.git/**"
